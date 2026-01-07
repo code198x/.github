@@ -115,7 +115,7 @@ This project exists because of:
 - **VICE Team** — cycle-accurate C64 emulation
 - **ACME** — reliable cross-assembly for C64
 - **Fuse** — ZX Spectrum emulation
-- **pasmo/sjasmplus** — Z80 cross-assembly
+- **pasmonext** — Z80 cross-assembly
 - **FS-UAE** — Amiga emulation
 - **vasm** — 68000 cross-assembly
 - **Mesen** — NES emulation
