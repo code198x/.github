@@ -12,7 +12,7 @@ Code198x teaches game development through complete projects. No isolated exercis
 
 Each game is broken into units. Each unit introduces one concept, adds one feature, and ends with working code you can run. By the final unit, you have a complete game and understand every line.
 
-**Website:** [code198x.stevehill.xyz](https://code198x.stevehill.xyz)
+**Website:** [code198x.com](https://code198x.com)
 
 ---
 
@@ -22,33 +22,33 @@ Each game is broken into units. Each unit introduces one concept, adds one featu
 
 | Game | Units | What You Learn |
 |------|-------|----------------|
-| **SID Symphony** | 16 | 6510 assembly, SID audio, state machines, input handling, visual effects |
+| **Starfield** | 128 | VIC-II sprites, joystick input, SID sound, raster interrupts |
 
-A rhythm game. Build from an empty screen to a full game with three-track gameplay, timing grades, combo multipliers, high scores, and pause functionality.
+A single-screen space shooter with hardware sprites. Build from an empty screen to a complete game with player controls, enemies, scoring, and sound effects.
 
 ### ZX Spectrum
 
 | Game | Units | What You Learn |
 |------|-------|----------------|
-| **Ink War** | 16 | Z80 assembly, ULA graphics, keyboard input, game state, territory mechanics |
+| **Shadowkeep** | 128 | Z80 assembly, attribute system, screen memory, room data, keyboard input |
 
-A territory control strategy game. Two players compete to claim cells on a grid, with expanding territories and strategic blocking.
+A top-down maze explorer where attributes are the game. Navigate rooms, uncover the map, and survive what lurks in the keep.
 
 ### Commodore Amiga
 
 | Game | Units | What You Learn |
 |------|-------|----------------|
-| **Hop** | 16 | 68000 assembly, Copper, Blitter, Paula audio, bitplane graphics |
+| **Exodus** | 128 | 68000 assembly, Copper lists, Blitter operations, Paula audio, bitplane graphics |
 
-A Frogger-style arcade game. Guide your frog across traffic and rivers, avoiding hazards and riding logs to reach safety.
+A terrain puzzle where the Blitter IS the gameplay. Guide creatures across hazardous landscapes using the Amiga's custom chips.
 
 ### Nintendo Entertainment System
 
 | Game | Units | What You Learn |
 |------|-------|----------------|
-| **Neon Nexus** | 16 | 6502 assembly, PPU graphics, APU audio, NMI handling, sprite management |
+| **Dash** | 128 | 6502 assembly, PPU graphics, sprite management, NMI handling, controller input |
 
-A fixed-screen action game. Navigate an arena with multiple enemy types, collect items, and survive with progressive difficulty.
+A fast-paced side-scrolling runner with obstacle avoidance. Build from a static screen to a complete game with scrolling, hazards, and scoring.
 
 ---
 
@@ -71,10 +71,10 @@ A fixed-screen action game. Navigate an arena with multiple enemy types, collect
 
 | Platform | Start Here |
 |----------|------------|
-| Commodore 64 | [SID Symphony Unit 1](https://code198x.stevehill.xyz/commodore-64/game-01-sid-symphony/unit-01) |
-| ZX Spectrum | [Ink War Unit 1](https://code198x.stevehill.xyz/sinclair-zx-spectrum/game-01-ink-war/unit-01) |
-| Amiga | [Hop Unit 1](https://code198x.stevehill.xyz/commodore-amiga/game-01-hop/unit-01) |
-| NES | [Neon Nexus Unit 1](https://code198x.stevehill.xyz/nintendo-entertainment-system/game-01-neon-nexus/unit-01) |
+| Commodore 64 | [Starfield Unit 1](https://code198x.com/commodore-64/assembly/game-01-starfield/unit-01) |
+| ZX Spectrum | [Shadowkeep Unit 1](https://code198x.com/sinclair-zx-spectrum/assembly/game-01-shadowkeep/unit-01) |
+| Amiga | [Exodus Unit 1](https://code198x.com/commodore-amiga/assembly/game-01-exodus/unit-01) |
+| NES | [Dash Unit 1](https://code198x.com/nintendo-entertainment-system/assembly/game-01-dash/unit-01) |
 
 **Set up a development environment:**
 
@@ -125,4 +125,4 @@ This project exists because of:
 
 ---
 
-**Start building:** [code198x.stevehill.xyz](https://code198x.stevehill.xyz)
+**Start building:** [code198x.com](https://code198x.com)
