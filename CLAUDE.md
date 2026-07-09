@@ -4,7 +4,9 @@ Code198x is the curriculum, website, pattern-library, code-sample, platform-dev,
 
 ## Umbrella context
 
-This folder is the local mirror of the `code198x` GitHub org. The umbrella context is [`../CLAUDE.md`](../CLAUDE.md); cross-project decisions live in [`../decisions/`](../decisions/). Hardware facts cite the 198x source-of-truth layers rather than becoming canonical inside curriculum docs.
+This folder is the org container for the `code198x` GitHub organisation. It is not a Git repo; each child folder is an independent repo with its own remote. Commit inside the repo that owns the file.
+
+The umbrella context is [`../CLAUDE.md`](../CLAUDE.md); cross-project decisions live in [`../decisions/`](../decisions/). Hardware facts cite the 198x source-of-truth layers rather than becoming canonical inside curriculum docs.
 
 ## Current launch context
 
