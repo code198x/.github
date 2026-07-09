@@ -22,7 +22,7 @@ The two structural Spectrum artefacts still stand: the **landing page** (done) a
 No session-start gate — work on whatever makes sense. The 8-item DoD bar holds for everything that ships (real-hardware verification is suspended for now — see [`decisions/commercial-bar-revamp.md`](docs/decisions/commercial-bar-revamp.md)); **"ship as much as possible" replaces trimming-to-a-count** as the operating stance.
 
 ## Critical Rules
-- **7 separate git repos** — check all with `git status` before committing
+- **Multiple independent git repos** — check the relevant child repos with `git status` before committing
 - **Code samples in `/code-samples/`** — never inline in MDX; use `CodeFromFile` component
 - **British English** — colour, learnt, centre (exception: "program" not "programme")
 - **Verify every screenshot** — use Read tool, check for errors, document what you see
@@ -75,7 +75,7 @@ Options: `--wait N` (frames), `--input FILE` (input script), `--duration N` (vid
 > byte-identical; capture.py assembles via Asm198x; the Docker image is retired
 > bar one legacy tape manifest). This is why the `*-dev` repos' deleted capture
 > scripts are parked, not restored. Binding decision:
-> [`../../decisions/code198x-dev-tooling-migration.md`](../decisions/code198x-dev-tooling-migration.md)
+> [`../decisions/code198x-dev-tooling-migration.md`](../decisions/code198x-dev-tooling-migration.md)
 > (fuller output-container detail in [`infrastructure/docker-toolchains.md`](docs/infrastructure/docker-toolchains.md)).
 
 ## Content Collections
