@@ -37,6 +37,7 @@ No session-start gate — work on whatever makes sense. The 8-item DoD bar holds
 | `sinclair-zx-spectrum-dev` | **Retired** (2026-07-02) — builds use Asm198x |
 | `commodore-amiga-dev` | Docker + vasm |
 | `nintendo-entertainment-system-dev` | Docker + ca65 |
+| `substack-drafts` | Code198x Substack/article drafts |
 
 ## Commands
 ```bash
