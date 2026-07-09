@@ -1,128 +1,46 @@
 # Code Like It's 198x
 
-**Learn assembly by building complete games for classic computers.**
+**Learn retro game development by building real projects for classic machines.**
 
 > *"Still teaching the world to code, 40 years later."*
 
----
-
 ## What is Code198x?
 
-Code198x teaches game development through complete projects. No isolated exercises — you build real, playable games from start to finish, learning assembly along the way.
+Code198x is the curriculum and publishing sibling of the 198x family. It teaches classic-computer and console development through complete, runnable projects rather than isolated exercises.
 
-Each game is broken into units. Each unit introduces one concept, adds one feature, and ends with working code you can run. By the final unit, you have a complete game and understand every line.
+Each module is split into units. Each unit introduces a concept, changes working code, and ends with something learners can run. The live website catalogues are the source of truth for current modules, unit counts, and availability.
 
 **Website:** [code198x.com](https://code198x.com)
 
----
+## Current platform surface
 
-## Games
+The active curriculum surface covers:
 
-### Commodore 64
+- **Commodore 64** — BASIC and 6502 assembly modules, including `Meet the Machine` and `Starfield`.
+- **Sinclair ZX Spectrum** — Z80 assembly modules, including `Meet the Machine`, `Gloaming`, `The Long Night`, and `Shadowkeep`.
+- **Commodore Amiga** — AMOS, Blitz, and 68000 assembly modules, including `Flock` and `Exodus` work.
+- **Nintendo Entertainment System** — 6502 assembly modules, including `Meet the Machine` and `Dash`.
 
-| Game | Units | What You Learn |
-|------|-------|----------------|
-| **Starfield** | 128 | VIC-II sprites, joystick input, SID sound, raster interrupts |
-
-A single-screen space shooter with hardware sprites. Build from an empty screen to a complete game with player controls, enemies, scoring, and sound effects.
-
-### ZX Spectrum
-
-| Game | Units | What You Learn |
-|------|-------|----------------|
-| **Shadowkeep** | 128 | Z80 assembly, attribute system, screen memory, room data, keyboard input |
-
-A top-down maze explorer where attributes are the game. Navigate rooms, uncover the map, and survive what lurks in the keep.
-
-### Commodore Amiga
-
-| Game | Units | What You Learn |
-|------|-------|----------------|
-| **Exodus** | 128 | 68000 assembly, Copper lists, Blitter operations, Paula audio, bitplane graphics |
-
-A terrain puzzle where the Blitter IS the gameplay. Guide creatures across hazardous landscapes using the Amiga's custom chips.
-
-### Nintendo Entertainment System
-
-| Game | Units | What You Learn |
-|------|-------|----------------|
-| **Dash** | 128 | 6502 assembly, PPU graphics, sprite management, NMI handling, controller input |
-
-A fast-paced side-scrolling runner with obstacle avoidance. Build from a static screen to a complete game with scrolling, hazards, and scoring.
-
----
+For current module status, use the website repo's `src/content/modules/` and `src/content/units/` catalogues rather than this org profile.
 
 ## Repositories
 
 | Repository | Purpose |
-|------------|---------|
-| [**website**](https://github.com/code198x/website) | All lesson content (Astro + MDX) |
-| [**code-samples**](https://github.com/code198x/code-samples) | Working source code for every unit |
-| [**commodore-64-dev**](https://github.com/code198x/commodore-64-dev) | Docker C64 development environment |
-| [**sinclair-zx-spectrum-dev**](https://github.com/code198x/sinclair-zx-spectrum-dev) | Docker ZX Spectrum development environment |
-| [**commodore-amiga-dev**](https://github.com/code198x/commodore-amiga-dev) | Docker Amiga development environment |
-| [**nintendo-entertainment-system-dev**](https://github.com/code198x/nintendo-entertainment-system-dev) | Docker NES development environment |
-
----
-
-## Getting Started
-
-**Pick a platform and start Unit 1:**
-
-| Platform | Start Here |
-|----------|------------|
-| Commodore 64 | [Starfield Unit 1](https://code198x.com/commodore-64/assembly/game-01-starfield/unit-01) |
-| ZX Spectrum | [Shadowkeep Unit 1](https://code198x.com/sinclair-zx-spectrum/assembly/game-01-shadowkeep/unit-01) |
-| Amiga | [Exodus Unit 1](https://code198x.com/commodore-amiga/assembly/game-01-exodus/unit-01) |
-| NES | [Dash Unit 1](https://code198x.com/nintendo-entertainment-system/assembly/game-01-dash/unit-01) |
-
-**Set up a development environment:**
-
-```bash
-# Example: Commodore 64
-git clone https://github.com/code198x/commodore-64-dev.git
-cd commodore-64-dev
-docker-compose up -d
-docker-compose exec workspace bash
-```
-
-Each platform has its own Docker container with assembler and emulator ready to go.
-
----
+|---|---|
+| [**website**](https://github.com/code198x/website) | Astro site, public curriculum content, module/unit catalogues, pattern library, systems pages, updates, and vault content. |
+| [**code-samples**](https://github.com/code198x/code-samples) | Working source code, assets, capture helpers, and sample projects for curriculum units. |
+| [**docs**](https://github.com/code198x/docs) | Curriculum planning and documentation that is not part of the published site. |
+| [**substack-drafts**](https://github.com/code198x/substack-drafts) | Draft publishing material. |
+| Platform dev repos | Legacy or platform-specific development environments. Check each repo README before treating it as active. Spectrum builds now use Asm198x rather than the retired Spectrum dev container. |
 
 ## Philosophy
 
-- **Complete games, not exercises** — every project results in something playable
-- **One concept per unit** — focused learning without overwhelm
-- **Working code first** — understand by doing, not by reading theory
-- **Assembly from day one** — no BASIC preamble, straight to the metal
-- **British English throughout** — colour, not color
+- **Complete projects, not exercises** — every teaching path should produce something runnable.
+- **One concept per unit** — focused learning without hiding the machine.
+- **Working code first** — understand by doing, then explain the pattern.
+- **Real hardware surfaces** — direct memory, chips, timing, and formats where the platform requires them.
+- **British English throughout** — colour, learnt, centre; exception: `program` in technical contexts.
 
----
+## Part of the 198x family
 
-## Contributing
-
-- **Issues**: Report problems or suggest improvements
-- **Discussions**: Questions and ideas welcome
-- **Code**: See CONTRIBUTING.md in individual repositories
-
----
-
-## Recognition
-
-This project exists because of:
-
-- **VICE Team** — cycle-accurate C64 emulation
-- **ACME** — reliable cross-assembly for C64
-- **Fuse** — ZX Spectrum emulation
-- **pasmonext** — Z80 cross-assembly
-- **FS-UAE** — Amiga emulation
-- **vasm** — 68000 cross-assembly
-- **Mesen** — NES emulation
-- **cc65** — 6502 cross-assembly
-- **The retro community** — keeping these machines alive
-- **Original 8-bit developers** — proving what's possible with limited hardware
-
----
-
-**Start building:** [code198x.com](https://code198x.com)
+Code198x is the learner-facing curriculum layer. It draws on the same hardware reference canon as Emu198x, Asm198x, Build198x, Cat198x, Forge198x, and Play198x.
