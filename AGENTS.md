@@ -40,7 +40,6 @@ Current shipped/planned state lives in the website module catalogues and git, no
 | `scripts/` | Shared Code198x helper scripts. |
 | `.github/` | Org profile, health files, and this org-container context. |
 | `substack-drafts/` | Code198x Substack/article drafts. |
-| `commodore-amiga-dev/` | Amiga development container. Still the Amiga build path. |
 
 ## Active tooling paths
 
@@ -48,7 +47,7 @@ Current shipped/planned state lives in the website module catalogues and git, no
 |---|---|---|
 | ZX Spectrum | Asm198x native assembler | `.sna` and related Spectrum outputs |
 | C64 | Asm198x native assembler | `.prg` |
-| Amiga | `commodore-amiga-dev/` Docker tooling (vasm) | executable |
+| Amiga | Asm198x native assembler, mastered by Build198x | bootable `.adf` |
 | NES | Asm198x native assembler | `.nes` |
 
 Capture work should use the current documented capture path for the target repo/platform. Cross-project migration rationale lives in [`../decisions/code198x-dev-tooling-migration.md`](../decisions/code198x-dev-tooling-migration.md).
