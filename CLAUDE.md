@@ -38,19 +38,16 @@ Current shipped/planned state lives in the website module catalogues and git, no
 | `scripts/` | Shared Code198x helper scripts. |
 | `.github/` | Org profile, health files, and this org-container context. |
 | `substack-drafts/` | Code198x Substack/article drafts. |
-| `commodore-64-dev/` | C64 development container/tooling. |
-| `commodore-amiga-dev/` | Amiga development container/tooling. |
-| `nintendo-entertainment-system-dev/` | NES development container/tooling. |
-| `sinclair-zx-spectrum-dev/` | Retired Spectrum dev-container repo; Spectrum builds use Asm198x. |
+| `commodore-amiga-dev/` | Amiga development container. Still the Amiga build path. |
 
 ## Active tooling paths
 
 | Platform | Build path | Output |
 |---|---|---|
 | ZX Spectrum | Asm198x native assembler | `.sna` and related Spectrum outputs |
-| C64 | `commodore-64-dev/` Docker tooling | `.prg` |
-| Amiga | `commodore-amiga-dev/` Docker tooling | executable |
-| NES | `nintendo-entertainment-system-dev/` Docker tooling | `.nes` |
+| C64 | Asm198x native assembler | `.prg` |
+| Amiga | `commodore-amiga-dev/` Docker tooling (vasm) | executable |
+| NES | Asm198x native assembler | `.nes` |
 
 Capture work should use the current documented capture path for the target repo/platform. Cross-project migration rationale lives in [`../decisions/code198x-dev-tooling-migration.md`](../decisions/code198x-dev-tooling-migration.md).
 
@@ -60,6 +57,6 @@ Capture work should use the current documented capture path for the target repo/
 - `docs/decisions/` — Code198x binding decisions.
 - `docs/specifications/` — curriculum, unit, brief, Vault, Pattern Library, content model, and voice specs.
 - `docs/platforms/` — per-platform reference and curriculum framing.
-- `docs/infrastructure/` — Docker, capture pipeline, Astro site notes.
+- `docs/infrastructure/` — capture pipeline and Astro site notes.
 
 For cross-project work, start from the umbrella [`../README.md`](../README.md) and [`../docs/start-here.md`](../docs/start-here.md).
