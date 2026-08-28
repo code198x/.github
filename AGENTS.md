@@ -1,6 +1,6 @@
 # Code198x — org container
 
-> Read [`PRINCIPLES.md`](PRINCIPLES.md) first.
+> Read [`PRINCIPLES.md`](.github/PRINCIPLES.md) first. [`MANIFESTO.md`](.github/MANIFESTO.md) is why the project exists.
 
 Code198x is the curriculum, website, pattern-library, code-sample, platform-dev, and publishing sibling in the 198x family.
 
