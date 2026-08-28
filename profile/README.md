@@ -44,3 +44,7 @@ For current module status, use the website repo's `src/content/modules/` and `sr
 ## Part of the 198x family
 
 Code198x is the learner-facing curriculum layer. It draws on the same hardware reference canon as Emu198x, Asm198x, Build198x, Cat198x, Forge198x, and Play198x.
+
+## Foundations
+
+Every project in the 198x family shares three documents: [why it exists](https://github.com/code198x/.github/blob/main/MANIFESTO.md), [the principles it decides by](https://github.com/code198x/.github/blob/main/PRINCIPLES.md), and [how it works on a subject](https://github.com/code198x/.github/blob/main/PRACTICE.md).
