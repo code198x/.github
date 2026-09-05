@@ -2,13 +2,13 @@
 
 > Read [`PRINCIPLES.md`](.github/PRINCIPLES.md) first. [`MANIFESTO.md`](.github/MANIFESTO.md) is why the project exists.
 
-Code198x is the curriculum, website, pattern-library, code-sample, platform-dev, and publishing sibling in the 198x family.
+Code198x develops the games development and programming curriculum, website, Pattern Library, Vault and code samples. Read [the project charter](https://github.com/code198x/docs/blob/main/PROJECT.md) for current goals and [the documentation index](https://github.com/code198x/docs/blob/main/index.md) for authoring guidance.
 
 ## Umbrella context
 
 This folder is the org container for the `code198x` GitHub organisation. It is not a Git repo; each child folder is an independent repo with its own remote. Commit inside the repo that owns the file.
 
-The umbrella context is [`../CLAUDE.md`](../CLAUDE.md); cross-project decisions live in [`../decisions/`](../decisions/). Hardware facts cite the 198x source-of-truth layers rather than becoming canonical inside curriculum docs.
+Family principles govern cross-project work. Code198x specifications apply the current charter; previous reasoning remains in Git history. Cite original hardware sources precisely rather than treating curriculum prose as hardware authority.
 
 ## Current launch context
 
@@ -19,7 +19,7 @@ October 2026 is the public launch target. The launch surface is the four core pl
 - Commodore Amiga
 - Nintendo Entertainment System
 
-Current shipped/planned state lives in the website module catalogues and git, not in prose trackers. Code198x decisions explain the rationale.
+Current shipped/planned state lives in the website catalogues, authored lessons, samples and Git. October is planning context, not a claim of completion. The immediate curriculum focus is re-specifying Spectrum BASIC and assembly as independent entry points; new game sequences remain proposals until agreed. BASIC games need not meet commercial standards: quality is relative to the agreed scope.
 
 ## Working rules
 
@@ -28,14 +28,15 @@ Current shipped/planned state lives in the website module catalogues and git, no
 - Keep code samples in `code-samples/`; curriculum pages include them through `CodeFromFile`.
 - Use British English, except use “program” for computer programs.
 - Verify screenshots and captures before using them in public-facing content.
-- Treat hardware facts as derived from `reference/`, `syntheses/`, and Emu198x knowledge; do not make curriculum docs the first canonical home of hardware facts.
+- Distinguish proposals, source-checked claims, builds and configuration-specific execution evidence.
+- Public content and repositories must not mention private collections or local library paths; cite original sources or public pages directly.
 
 ## Repos in this org
 
 | Repo | Purpose |
 |---|---|
 | `website/` | Astro site serving the curriculum, Pattern Library, Vault, and project pages. |
-| `docs/` | Curriculum specifications, platform references, decisions, and content workflow docs. |
+| `docs/` | Current project goals, curriculum specifications, system design material and workflow guidance. |
 | `code-samples/` | Working code used by curriculum units. |
 | `scripts/` | Shared Code198x helper scripts. |
 | `.github/` | Org profile, health files, and this org-container context. |
@@ -55,7 +56,7 @@ Capture work should use the current documented capture path for the target repo/
 ## Key docs
 
 - `docs/index.md` — Code198x docs navigation.
-- `docs/decisions/` — Code198x binding decisions.
+- `docs/PROJECT.md` — current Code198x goals and direction; update this and the relevant specification when intent changes.
 - `docs/specifications/` — curriculum, unit, brief, Vault, Pattern Library, content model, and voice specs.
 - `docs/platforms/` — per-platform reference and curriculum framing.
 - `docs/infrastructure/` — capture pipeline and Astro site notes.
