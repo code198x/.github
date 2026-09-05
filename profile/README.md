@@ -4,7 +4,7 @@
 
 Code198x is developing a comprehensive games development and programming curriculum. Vintage computers give us environments small enough to explore how programs, memory, graphics, sound and hardware work together. We explain both how and why, and connect that understanding to making things on other machines too.
 
-[Explore the curriculum](https://code198x.com) · [Project goals](https://github.com/code198x/docs/blob/main/PROJECT.md) · [Authoring guidance](https://github.com/code198x/docs/blob/main/index.md)
+[Explore the curriculum](https://code198x.com) · [Project goals](https://github.com/code198x/docs/blob/main/PROJECT.md) · [Authoring guidance](https://github.com/code198x/docs/blob/main/README.md)
 
 ## Ways in
 

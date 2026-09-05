@@ -2,7 +2,7 @@
 
 > Read [`PRINCIPLES.md`](.github/PRINCIPLES.md) first. [`MANIFESTO.md`](.github/MANIFESTO.md) is why the project exists.
 
-Code198x develops the games development and programming curriculum, website, Pattern Library, Vault and code samples. Read [the project charter](https://github.com/code198x/docs/blob/main/PROJECT.md) for current goals and [the documentation index](https://github.com/code198x/docs/blob/main/index.md) for authoring guidance.
+Code198x develops the games development and programming curriculum, website, Pattern Library, Vault and code samples. Read [the project charter](https://github.com/code198x/docs/blob/main/PROJECT.md) for current goals and [the documentation index](https://github.com/code198x/docs/blob/main/README.md) for authoring guidance.
 
 ## Umbrella context
 
@@ -55,10 +55,11 @@ Capture work should use the current documented capture path for the target repo/
 
 ## Key docs
 
-- `docs/index.md` — Code198x docs navigation.
+- `docs/README.md` — Code198x docs navigation.
 - `docs/PROJECT.md` — current Code198x goals and direction; update this and the relevant specification when intent changes.
-- `docs/specifications/` — curriculum, unit, brief, Vault, Pattern Library, content model, and voice specs.
-- `docs/platforms/` — per-platform reference and curriculum framing.
-- `docs/infrastructure/` — capture pipeline and Astro site notes.
+- `docs/specifications/` — curriculum, unit, brief, Vault, Pattern Library, assets, pseudocode and voice specs.
+- `docs/platforms/` — retained game designs and prototype investigations for review.
+- `docs/website.md` — website, sources, capture, validation and publishing workflow.
+- `docs/work.md` — current bounded tasks and component proposals.
 
 For cross-project work, start from the umbrella [`../README.md`](../README.md) and [`../docs/start-here.md`](../docs/start-here.md).
