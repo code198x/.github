@@ -1,50 +1,31 @@
-# Code Like It's 198x
+# Code Like It’s 198x
 
-**Learn retro game development by building real projects for classic machines.**
+**You can understand the machine—and use that understanding to make things.**
 
-> *"Still teaching the world to code, 40 years later."*
+Code198x is developing a comprehensive games development and programming curriculum. Vintage computers give us environments small enough to explore how programs, memory, graphics, sound and hardware work together. We explain both how and why, and connect that understanding to making things on other machines too.
 
-## What is Code198x?
+[Explore the curriculum](https://code198x.com) · [Project goals](https://github.com/code198x/docs/blob/main/PROJECT.md) · [Authoring guidance](https://github.com/code198x/docs/blob/main/index.md)
 
-Code198x is the curriculum and publishing sibling of the 198x family. It teaches classic-computer and console development through complete, runnable projects rather than isolated exercises.
+## Ways in
 
-Each module is split into units. Each unit introduces a concept, changes working code, and ends with something learners can run. The live website catalogues are the source of truth for current modules, unit counts, and availability.
+Start with a system track, explore programming concepts through Foundations’ pseudocode, or visit a shared explanation when a game raises a question. The Craft and Maths for Games support game-making decisions; the Vault supplies context and the Pattern Library supplies techniques to adapt.
 
-**Website:** [code198x.com](https://code198x.com)
+System projects grow through guided, runnable stages. A small BASIC game can be complete and enjoyable without commercial scale. Shared conceptual lessons use worked examples, diagrams and traces where these explain the idea best.
 
-## Current platform surface
-
-The active curriculum surface covers:
-
-- **Commodore 64** — BASIC and 6502 assembly modules, including `Meet the Machine` and `Starfield`.
-- **Sinclair ZX Spectrum** — Z80 assembly modules, including `Meet the Machine`, `Gloaming`, `The Long Night`, and `Shadowkeep`.
-- **Commodore Amiga** — AMOS, Blitz, and 68000 assembly modules, including `Flock` and `Exodus` work.
-- **Nintendo Entertainment System** — 6502 assembly modules, including `Meet the Machine` and `Dash`.
-
-For current module status, use the website repo's `src/content/modules/` and `src/content/units/` catalogues rather than this org profile.
+The initial system tracks cover Spectrum, C64, Amiga and NES, with different language and hardware opportunities. See the [website](https://code198x.com/systems/) for current availability; an entry or future plan does not imply a complete course or verified execution.
 
 ## Repositories
 
-| Repository | Purpose |
+| Repository | Responsibility |
 |---|---|
-| [**website**](https://github.com/code198x/website) | Astro site, public curriculum content, module/unit catalogues, pattern library, systems pages, updates, and vault content. |
-| [**code-samples**](https://github.com/code198x/code-samples) | Working source code, assets, capture helpers, and sample projects for curriculum units. |
-| [**docs**](https://github.com/code198x/docs) | Curriculum planning and documentation that is not part of the published site. |
-| [**substack-drafts**](https://github.com/code198x/substack-drafts) | Draft publishing material. |
-| Platform dev repos | Legacy or platform-specific development environments. Check each repo README before treating it as active. Spectrum builds now use Asm198x rather than the retired Spectrum dev container. |
+| [website](https://github.com/code198x/website) | Site, authored lessons, catalogues, Vault and Pattern Library |
+| [code-samples](https://github.com/code198x/code-samples) | Runnable sources, assets and capture recipes |
+| [docs](https://github.com/code198x/docs) | Current project goals, specifications and system design material |
+| [scripts](https://github.com/code198x/scripts) | Shared content and workflow helpers |
+| [substack-drafts](https://github.com/code198x/substack-drafts) | Draft publishing material |
 
-## Philosophy
+Active cross-development uses the family’s Asm198x, Build198x and Emu198x tools where their capabilities fit the target. Retired platform development repositories are historical references.
 
-- **Complete projects, not exercises** — every teaching path should produce something runnable.
-- **One concept per unit** — focused learning without hiding the machine.
-- **Working code first** — understand by doing, then explain the pattern.
-- **Real hardware surfaces** — direct memory, chips, timing, and formats where the platform requires them.
-- **British English throughout** — colour, learnt, centre; exception: `program` in technical contexts.
+## The wider family
 
-## Part of the 198x family
-
-Code198x is the learner-facing curriculum layer. It draws on the same hardware reference canon as Emu198x, Asm198x, Build198x, Cat198x, Forge198x, and Play198x.
-
-## Foundations
-
-Every project in the 198x family shares three documents: [why it exists](https://github.com/code198x/.github/blob/main/MANIFESTO.md), [the principles it decides by](https://github.com/code198x/.github/blob/main/PRINCIPLES.md), and [how it works on a subject](https://github.com/code198x/.github/blob/main/PRACTICE.md).
+Code198x is the curriculum sibling of the 198x family. Each project shares [why it exists](https://github.com/code198x/.github/blob/main/MANIFESTO.md), [the principles it decides by](https://github.com/code198x/.github/blob/main/PRINCIPLES.md) and [how it works on a subject](https://github.com/code198x/.github/blob/main/PRACTICE.md).
