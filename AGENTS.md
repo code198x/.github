@@ -19,7 +19,7 @@ October 2026 is the public launch target. The launch surface is the four core pl
 - Commodore Amiga
 - Nintendo Entertainment System
 
-Current shipped/planned state lives in the website catalogues, authored lessons, samples and Git. October is planning context, not a claim of completion. The immediate curriculum focus is re-specifying Spectrum BASIC and assembly as independent entry points; new game sequences remain proposals until agreed. BASIC games need not meet commercial standards: quality is relative to the agreed scope.
+Current shipped/planned state lives in the website catalogues, authored lessons, samples and Git. October is planning context, not a claim of completion. The agreed Spectrum BASIC rewrite is complete and published. BASIC and assembly are independent entry points. Current progression work follows `docs/work.md`; the separate Spectrum assembly rewrite continues. New game sequences remain proposals until agreed. BASIC games meet commercial standards of polish at the scale of early releases (1982 to 1983), not late-1980s ones.
 
 ## Working rules
 
